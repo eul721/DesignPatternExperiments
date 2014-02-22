@@ -11,10 +11,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Creature.h" />
+    <ClInclude Include="Android.h" />
+    <ClInclude Include="HardCase.h" />
+    <ClInclude Include="MobileDevice.h" />
+    <ClInclude Include="PhoneDecorator.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Creature.cpp" />
+    <ClCompile Include="Android.cpp" />
+    <ClCompile Include="HardCase.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MobileDevice.cpp" />
+    <ClCompile Include="PhoneDecorator.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8ED01893-1EBC-409F-AA93-2E813D5D9350}</ProjectGuid>
